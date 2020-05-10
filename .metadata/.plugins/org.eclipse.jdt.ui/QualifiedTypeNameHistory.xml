@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsTileEntity.FishTrapTileEntity"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsBlocks.TsBlocks"/>
-<fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
-<fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.RegistryObject"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.TsUtil.RegistryHandler"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.passive.AnimalEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.monster.ZombieEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.CreatureEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.model.Model"/>
@@ -16,12 +8,6 @@
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.model.ModelRenderer"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityType"/>
 <fullyQualifiedTypeName name="net.minecraft.item.SpawnEggItem"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
-<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent"/>
-<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome.Builder"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityClassification"/>
@@ -30,9 +16,6 @@
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntities.ichorian_giant.IchorianGiantEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityType.Builder"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus"/>
 <fullyQualifiedTypeName name="net.minecraftforge.api.distmarker.OnlyIn"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.init.TsEntities"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.entity.TsEntities"/>
@@ -51,6 +34,30 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.MobEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.SharedMonsterAttributes"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.passive.GolemEntity"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.Reference"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.player.PlayerEntity"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.Reference"/>
+<fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.IEventBus"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsItems.TsItems"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsBlocks.TsBlocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.RegistryObject"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
+<fullyQualifiedTypeName name="net.minecraft.item.BlockItem"/>
+<fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.SubscribeEvent"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+<fullyQualifiedTypeName name="net.minecraft.block.CropsBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 </qualifiedTypeNameHistroy>

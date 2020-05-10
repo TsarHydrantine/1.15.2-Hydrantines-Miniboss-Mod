@@ -33,7 +33,6 @@ public class TsEntities
     }
 
     @SubscribeEvent
-    @SuppressWarnings("unused")
     public static void registerTypes(final RegistryEvent.Register<EntityType<?>> event)
     {
         IForgeRegistry<EntityType<?>> registry = event.getRegistry();

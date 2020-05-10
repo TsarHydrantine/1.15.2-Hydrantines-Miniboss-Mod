@@ -29,7 +29,6 @@ public class TsSounds {
 	}
 
 	@SubscribeEvent
-	@SuppressWarnings("unused")
 	public static void registerSounds(final RegistryEvent.Register<SoundEvent> event) {
 		IForgeRegistry<SoundEvent> registry = event.getRegistry();
 		SOUNDS.forEach(registry::register);

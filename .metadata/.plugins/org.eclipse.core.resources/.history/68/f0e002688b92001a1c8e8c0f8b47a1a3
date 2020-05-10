@@ -1,0 +1,9 @@
+package com.tsarhydrantine.tsbase.tsItems;
+
+import net.minecraft.item.Item;
+
+public class TsItems {
+	
+	public static Item shell;
+	
+}
