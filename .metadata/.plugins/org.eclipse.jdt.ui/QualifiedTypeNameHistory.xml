@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraft.entity.monster.ZombieEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.CreatureEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.Model"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.MobRenderer"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.EntityModel"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.ModelRenderer"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.EntityType"/>
-<fullyQualifiedTypeName name="net.minecraft.item.SpawnEggItem"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome.Builder"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityClassification"/>
@@ -33,12 +25,10 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.ai.goal.NearestAttackableTargetGoal"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.MobEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.SharedMonsterAttributes"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.passive.GolemEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.player.PlayerEntity"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus"/>
-<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
 <fullyQualifiedTypeName name="net.minecraft.block.CropsBlock"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.MathHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.passive.GolemEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Effect"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Effects"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEffects.TsEffects"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEffects.TsEffects.Frozen"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.EffectType"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.TsRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
 </qualifiedTypeNameHistroy>

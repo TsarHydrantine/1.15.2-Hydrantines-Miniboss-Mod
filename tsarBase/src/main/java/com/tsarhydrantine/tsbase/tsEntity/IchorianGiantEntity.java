@@ -4,6 +4,7 @@ import java.util.function.Predicate;
 
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.CreatureEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.MobEntity;
@@ -25,6 +26,10 @@ import net.minecraft.entity.monster.CreeperEntity;
 import net.minecraft.entity.monster.IMob;
 import net.minecraft.entity.passive.GolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
 /**
@@ -68,7 +73,12 @@ public class IchorianGiantEntity extends GolemEntity {
 	public boolean isNonBoss() {
 		return false;
 	}
-
+	
+	//
+	protected boolean shouldDrown() {
+	      return false;
+	}
+	
 	//
 	public boolean onLivingFall(float distance, float damageMultiplier) {
 		return false;
@@ -78,5 +88,14 @@ public class IchorianGiantEntity extends GolemEntity {
 	public boolean canDespawn(double distanceToClosestPlayer) {
 		return false;
 	}
-
+	
+	protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty) {
+	      this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.GOLDEN_SWORD));
+	}
+	
+	@Override
+	protected boolean shouldExchangeEquipment(ItemStack candidate, ItemStack existing, EquipmentSlotType slotTypeIn) {
+		return false;
+	}
+	
 }

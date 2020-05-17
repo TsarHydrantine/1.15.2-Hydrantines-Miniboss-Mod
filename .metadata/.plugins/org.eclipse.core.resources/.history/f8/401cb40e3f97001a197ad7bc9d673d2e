@@ -1,0 +1,21 @@
+package com.tsarhydrantine.tsbase.tsEffects;
+
+import net.minecraft.potion.Effect;
+import net.minecraft.potion.EffectType;
+import net.minecraft.potion.Potion;
+
+public class TsEffects {
+	
+	public static final Potion FROZEN = null;
+	
+	public static final Effect FROZEN_EFFECT = null;
+	
+	
+	public static class Frozen extends Effect{
+
+		public Frozen(EffectType typeIn, int liquidColorIn) {
+			super(typeIn, liquidColorIn);
+		}
+		
+	}
+}

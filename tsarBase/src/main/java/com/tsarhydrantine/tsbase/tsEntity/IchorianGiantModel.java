@@ -10,6 +10,7 @@ import net.minecraft.client.renderer.entity.model.SegmentedModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.HandSide;
+import net.minecraft.util.math.MathHelper;
 
 public class IchorianGiantModel extends SegmentedModel<IchorianGiantEntity> implements IHasArm, IHasHead{
 	
@@ -56,18 +57,18 @@ public class IchorianGiantModel extends SegmentedModel<IchorianGiantEntity> impl
 		this.LeftLeg.setTextureOffset(6, 49).addBox( -3.0F, 0.0F, -3.0F, 6, 12, 6, 0.0F, false);
 
 		this.LeftFoot = new ModelRenderer(this);
-		this.LeftFoot.setRotationPoint(4.0F, 24.0F, -3.0F);
+		this.LeftFoot.setRotationPoint(0.0F, 12.0F, -3.0F);
 		this.LeftLeg.addChild(LeftFoot);
-		this.LeftFoot.setTextureOffset(6, 61).addBox( -7.0F, -12.0F, 0.0F, 6, 12, 6, 0.0F, false);
+		this.LeftFoot.setTextureOffset(6, 61).addBox(-3.0F, 0.0F, 0.0F, 6, 12, 6, 0.0F, false);
 
 		this.RightLeg = new ModelRenderer(this);
 		this.RightLeg.setRotationPoint(4.0F, 0.0F, 4.0F);
 		this.RightLeg.setTextureOffset(6, 49).addBox( -3.0F, 0.0F, -4.0F, 6, 12, 6, 0.0F, false);
 
 		this.RightFoot = new ModelRenderer(this);
-		this.RightFoot.setRotationPoint(-4.0F, 24.0F, -4.0F);
+		this.RightFoot.setRotationPoint(0.0F, 12.0F, -4.0F);
 		this.RightLeg.addChild(RightFoot);
-		this.RightFoot.setTextureOffset(6, 61).addBox( 1.0F, -12.0F, 0.0F, 6, 12, 6, 0.0F, false);
+		this.RightFoot.setTextureOffset(6, 61).addBox(-3.0F, 0.0F, 0.0F, 6, 12, 6, 0.0F, false);
 
 		this.LoinClothFront = new ModelRenderer(this);
 		this.LoinClothFront.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -109,8 +110,20 @@ public class IchorianGiantModel extends SegmentedModel<IchorianGiantEntity> impl
 
 	@Override
 	public void setRotationAngles(IchorianGiantEntity entityIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.LeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662f) * 1.4f * limbSwingAmount;
+		this.RightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662f + (float)Math.PI) * 1.4f * limbSwingAmount;
 		
+		this.RightFoot.rotateAngleX = -(MathHelper.cos(limbSwing * 0.6662f + (float)Math.PI)-1.0f) * 1.4f * limbSwingAmount;
+		this.LeftFoot.rotateAngleX = -(MathHelper.cos(limbSwing * 0.6662f)-1.0F) * 1.4f * limbSwingAmount;
 		
+		this.LoinClothFront.rotateAngleX = MathHelper.cos(2f * limbSwing * 0.3332f) * 1.0f * limbSwingAmount;
+		this.LoinClothBack.rotateAngleX = MathHelper.cos(2f * limbSwing * 0.3332f) * 1.0f * limbSwingAmount;
+		
+		this.RightArm.rotateAngleX = MathHelper.cos(limbSwing * 0.6662f + (float)Math.PI) * 1.4f * limbSwingAmount;
+		this.LeftArm.rotateAngleX = MathHelper.cos(limbSwing * 0.6662f) * 1.4f * limbSwingAmount;
+		
+		this.Head.rotateAngleY = netHeadYaw * 0.017f;
+		this.Head.rotateAngleX = headPitch * 0.17f;
 	}
 	
 	public ModelRenderer getArmHoldingSword() {

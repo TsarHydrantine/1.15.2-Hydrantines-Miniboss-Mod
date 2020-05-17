@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class TsBlocks {
 	
-public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Reference.MOD_ID);
+	public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 	
 	public static final RegistryObject<Block> HELLTHORNBLOCK = BLOCKS.register("hellthornblock", () -> new Block(Block.Properties.create(Material.LEAVES)));
 	
