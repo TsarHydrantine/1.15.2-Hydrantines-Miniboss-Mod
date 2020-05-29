@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraft.world.biome.Biome"/>
-<fullyQualifiedTypeName name="net.minecraft.world.biome.Biome.Builder"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.EntityClassification"/>
-<fullyQualifiedTypeName name="net.minecraft.world.biome.Biome.SpawnListEntry"/>
-<fullyQualifiedTypeName name="net.minecraft.world.biome.Biomes"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntities.ichorian_giant.IchorianGiantEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.EntityType.Builder"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="net.minecraftforge.api.distmarker.OnlyIn"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.init.TsEntities"/>
@@ -25,7 +18,6 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.ai.goal.NearestAttackableTargetGoal"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.MobEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.SharedMonsterAttributes"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.player.PlayerEntity"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus"/>
@@ -33,7 +25,6 @@
 <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
 <fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.Reference"/>
 <fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.IEventBus"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsItems.TsItems"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block.Properties"/>
@@ -46,7 +37,6 @@
 <fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
 <fullyQualifiedTypeName name="net.minecraft.item.BlockItem"/>
-<fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.SubscribeEvent"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
 <fullyQualifiedTypeName name="net.minecraft.block.CropsBlock"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="net.minecraft.potion.EffectType"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.TsRegistry"/>
 <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.monster.MonsterEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.SpiderModel"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderEntity"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.TsEntities"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderRenderer"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.Reference"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.PlayerEvent.NameFormat"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.PlayerEntity"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tests.PlayerModifier"/>
+<fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.SubscribeEvent"/>
 </qualifiedTypeNameHistroy>

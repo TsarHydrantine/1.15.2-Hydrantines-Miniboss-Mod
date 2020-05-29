@@ -1,9 +1,0 @@
-package com.tsarhydrantine.tsbase.tsBlocks;
-
-import net.minecraft.item.Item;
-
-public class TsBlocks {
-	
-	public static Item hellthornblock;
-	
-}

@@ -1,0 +1,10 @@
+package com.tsarhydrantine.tsbase.tests;
+
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraftforge.event.entity.player.PlayerEvent.NameFormat;
+import net.minecraftforge.eventbus.api.EventPriority;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+public class PlayerModifier {
+	
+}
