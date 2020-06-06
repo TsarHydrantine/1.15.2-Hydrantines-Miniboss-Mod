@@ -1,0 +1,20 @@
+package com.tsarhydrantine.tsbase.tsEnchantments;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraft.inventory.EquipmentSlotType;
+
+public class EnchantmentSlashing extends Enchantment {
+
+	
+	protected EnchantmentSlashing(Rarity rarityIn, EnchantmentType typeIn, EquipmentSlotType[] slots) {
+		super(Rarity.COMMON, TsEnchantments.tsGLAIVE, new EquipmentSlotType[] {EquipmentSlotType.MAINHAND});
+		this.setRegistryName("slashing");
+	}
+
+	@Override
+	public int getMaxLevel() {
+		return 4;
+	}
+
+}

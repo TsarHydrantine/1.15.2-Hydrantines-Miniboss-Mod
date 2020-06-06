@@ -1,0 +1,26 @@
+package com.tsarhydrantine.tsbase.tsEntity.DeadMau5;
+
+import com.tsarhydrantine.tsbase.Reference;
+import com.tsarhydrantine.tsbase.TsRegistry;
+
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.potion.Effect;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
+import net.minecraftforge.event.entity.player.UseHoeEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+
+public class AddPlayerAttribute {
+	@SubscribeEvent
+	public void pickupItem(UseHoeEvent event) {
+		TsRegistry.logger.info("Player picked up an item!");
+		LivingEntity living = event.getEntityLiving();
+		living.addPotionEffect(new EffectInstance(Effects.BLINDNESS, 600, 255));
+	}
+}

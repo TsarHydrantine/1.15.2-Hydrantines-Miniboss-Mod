@@ -1,3 +1,7 @@
 {
-	"item.tsbase.hellthorn": "Hellthorn"
+	"item.tsbase.hellthorn": "Hellthorn",
+	"item.tsbase.iron_glaive": "Iron Glaive",
+	
+	"enchantment.tsbase.slashing": "Slashing",
+	"enchantment.tsbase.poisonaspect": "Poison Aspect"
 }

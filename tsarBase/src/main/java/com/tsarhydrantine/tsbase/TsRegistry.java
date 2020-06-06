@@ -6,9 +6,11 @@ import org.apache.logging.log4j.Logger;
 import com.tsarhydrantine.tsbase.tsBlocks.Hellthorn;
 import com.tsarhydrantine.tsbase.tsBlocks.TsBlocks;
 import com.tsarhydrantine.tsbase.tsEffects.TsEffects;
+import com.tsarhydrantine.tsbase.tsEnchantments.TsEnchantments;
 import com.tsarhydrantine.tsbase.tsItems.TsItems;
 
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -17,8 +19,10 @@ import net.minecraft.potion.EffectType;
 import net.minecraft.potion.Potion;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class TsRegistry {
@@ -38,9 +42,10 @@ public class TsRegistry {
 		});
 		
 		Item hellthorn = TsItems.HELLTHORN.get();
+		Item iron_glaive = TsItems.IRON_GLAIVE.get();
 		Block hellthornblock = TsBlocks.HELLTHORNBLOCK.get();
 		
-		logger.debug("Registered BlockItems!");
+		logger.debug("Registered Items!");
 	}
 	
 	@SubscribeEvent

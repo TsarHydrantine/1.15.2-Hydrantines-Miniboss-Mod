@@ -1,0 +1,25 @@
+package com.tsarhydrantine.tsbase.tsEnchantments;
+
+import com.tsarhydrantine.tsbase.Reference;
+import com.tsarhydrantine.tsbase.tsItems.tsWeapons.TsGlaiveItem;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraftforge.event.RegistryEvent.Register;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
+public class TsEnchantments {
+	public static final EnchantmentType tsGLAIVE = EnchantmentType.create("tsglaive", (item)->(item instanceof TsGlaiveItem));
+	
+	public static final Enchantment SLASHING = new EnchantmentSlashing();
+	
+	
+	@SubscribeEvent
+	public static void registerEnchantments(Register<Enchantment> event) {
+		event.getRegistry().registerAll(SLASHING);
+	}
+	
+
+}

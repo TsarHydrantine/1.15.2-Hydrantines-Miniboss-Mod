@@ -1,0 +1,5 @@
+package com.tsarhydrantine.tsbase.tsEntity.DeadMau5;
+
+public class AddPlayerAttribute {
+
+}

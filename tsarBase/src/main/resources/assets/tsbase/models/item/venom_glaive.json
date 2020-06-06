@@ -1,0 +1,6 @@
+{
+    "parent": "tsbase:item/large_handheld",
+    "textures": {
+        "layer0": "tsbase:items/venom_glaive"
+    }
+}
