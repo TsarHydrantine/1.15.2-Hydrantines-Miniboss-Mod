@@ -1,7 +1,10 @@
 {
 	"item.tsbase.hellthorn": "Hellthorn",
 	"item.tsbase.iron_glaive": "Iron Glaive",
+	"item.tsbase.venom_glaive": "Venom Glaive",
+	"item.tsbase.grave_glaive": "Grave Bane",
 	
 	"enchantment.tsbase.slashing": "Slashing",
-	"enchantment.tsbase.poisonaspect": "Poison Aspect"
+	"enchantment.tsbase.poisonaspect": "Poison Aspect",
+	"enchantment.tsbase.sepulcher": "Sepulcher"
 }

@@ -1,0 +1,18 @@
+package com.tsarhydrantine.tsbase.tsEntity.QueenBee;
+
+import net.minecraft.entity.CreatureEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.passive.IFlyingAnimal;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.network.IPacket;
+import net.minecraft.world.World;
+
+public class QueenBeeEntity extends CreatureEntity implements IFlyingAnimal{
+
+	protected QueenBeeEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
+		super(type, worldIn);
+		
+	}
+
+}

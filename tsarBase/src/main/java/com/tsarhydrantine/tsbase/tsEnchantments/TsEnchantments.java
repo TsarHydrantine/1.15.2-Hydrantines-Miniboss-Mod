@@ -17,7 +17,7 @@ public class TsEnchantments {
 	
 	public static final RegistryObject<Enchantment> SLASHING = ENCHANTMENTS.register("slashing", () -> new SlashingEnchantment());
 	public static final RegistryObject<Enchantment> POISON_ASPECT = ENCHANTMENTS.register("poisonaspect", () -> new PoisonAspectEnchantment());
-	public static final RegistryObject<Enchantment> SEPULCHER = ENCHANTMENTS.register("supulcher", () -> new SepulcherEnchantment());
+	public static final RegistryObject<Enchantment> SEPULCHER = ENCHANTMENTS.register("sepulcher", () -> new SepulcherEnchantment());
 	
 	public static final EnchantmentType tsGLAIVE = EnchantmentType.create("tsglaive", (item)->(item instanceof TsGlaiveItem));
 	

@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraft.item.BlockItem"/>
-<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
-<fullyQualifiedTypeName name="net.minecraft.block.CropsBlock"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="net.minecraft.util.math.MathHelper"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.passive.GolemEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEffects.TsEffects"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEffects.TsEffects.Frozen"/>
-<fullyQualifiedTypeName name="net.minecraft.potion.EffectType"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.monster.MonsterEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.SpiderModel"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderEntity"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.TsEntities"/>
-<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderRenderer"/>
-<fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.PlayerEvent.NameFormat"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.player.PlayerEntity"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tests.PlayerModifier"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Items"/>
@@ -38,7 +22,6 @@
 <fullyQualifiedTypeName name="net.minecraft.enchantment.Enchantment"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
 <fullyQualifiedTypeName name="net.minecraft.advancements.criterion.EntityEquipmentPredicate"/>
-<fullyQualifiedTypeName name="net.minecraft.inventory.EquipmentSlotType"/>
 <fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
 <fullyQualifiedTypeName name="net.minecraft.world.World"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.Reference"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="net.minecraft.potion.Effects"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEnchantments.PoisonAspectEnchantment"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEnchantments.TsEnchantments"/>
+<fullyQualifiedTypeName name="net.minecraftforge.client.event.sound.SoundSetupEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.util.SoundEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.boss.WitherEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.util.SoundEvents"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ArmorMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ArmorItem"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.EquipmentSlotType"/>
+<fullyQualifiedTypeName name="net.minecraft.item.IArmorMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.EntityModel"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.ModelRenderer"/>
+<fullyQualifiedTypeName name="com.mojang.blaze3d.matrix.MatrixStack"/>
+<fullyQualifiedTypeName name="com.mojang.blaze3d.vertex.IVertexBuilder"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.CreatureEntity"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.QueenBee.QueenBeeEntity"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.QueenBee.QueenBeeRenderer"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.passive.BeeEntity"/>
 </qualifiedTypeNameHistroy>

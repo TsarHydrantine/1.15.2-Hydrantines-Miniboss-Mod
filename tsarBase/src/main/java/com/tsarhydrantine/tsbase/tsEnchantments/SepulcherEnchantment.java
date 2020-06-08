@@ -24,17 +24,15 @@ public class SepulcherEnchantment extends Enchantment {
 		super(Rarity.UNCOMMON, TsEnchantments.tsGLAIVE, new EquipmentSlotType[] { EquipmentSlotType.MAINHAND });
 	}
 	
-	/**
 	@Override
 	public int getMinEnchantability(int enchantmentLevel) {
-		return 1 + (enchantmentLevel - 1) * 11;
+		return 10 + 20 * (enchantmentLevel - 1);
 	}
 
 	public int getMaxEnchantability(int enchantmentLevel) {
-		return this.getMinEnchantability(enchantmentLevel) + 20;
+		return super.getMinEnchantability(enchantmentLevel) + 50;
 	}
-	*/
-	
+
 	@Override
 	public int getMaxLevel() {
 		return 3;
@@ -54,5 +52,4 @@ public class SepulcherEnchantment extends Enchantment {
 		}
 	}
 
-	
 }

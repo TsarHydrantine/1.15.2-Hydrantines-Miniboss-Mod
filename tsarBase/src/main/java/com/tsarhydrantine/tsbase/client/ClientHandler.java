@@ -2,6 +2,7 @@ package com.tsarhydrantine.tsbase.client;
 
 import com.tsarhydrantine.tsbase.tsEntity.TsEntities;
 import com.tsarhydrantine.tsbase.tsEntity.IchorianGiant.IchorianGiantRenderer;
+import com.tsarhydrantine.tsbase.tsEntity.QueenBee.QueenBeeRenderer;
 import com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderRenderer;
 
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
@@ -18,7 +19,7 @@ public class ClientHandler
     {
         RenderingRegistry.registerEntityRenderingHandler(TsEntities.ICHORIAN_GIANT, IchorianGiantRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(TsEntities.TOXIC_SPIDER, ToxicSpiderRenderer::new);
-        
+        RenderingRegistry.registerEntityRenderingHandler(TsEntities.QUEEN_BEE, QueenBeeRenderer::new);
     }
     
 }
