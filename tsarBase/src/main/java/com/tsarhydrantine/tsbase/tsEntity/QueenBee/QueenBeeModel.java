@@ -56,16 +56,16 @@ public class QueenBeeModel extends EntityModel<QueenBeeEntity> {
 		Head.setRotationPoint(0.5F, 1.0F, -1.0F);
 		Body.addChild(Head);
 		setRotationAngle(Head, 0.8727F, 0.0F, 0.0F);
-		Head.setTextureOffset(0, 0).addBox(-3.0F, -6.0F, -7.0F, 7.0F, 7.0F, 7.0F, 0.0F, false);
+		Head.setTextureOffset(0, 0).addBox(-3.0F, -5.0F, -7.0F, 7.0F, 7.0F, 7.0F, 0.0F, false);
 
 		Crown = new ModelRenderer(this);
 		Crown.setRotationPoint(0.5F, 4.0F, -4.0F);
 		Head.addChild(Crown);
-		Crown.setTextureOffset(28, 3).addBox(-1.5F, -11.0F, -2.0F, 3.0F, 1.0F, 3.0F, 0.0F, false);
-		Crown.setTextureOffset(28, 1).addBox(-1.5F, -11.5F, 0.0F, 1.0F, 0.0F, 1.0F, 0.0F, false);
-		Crown.setTextureOffset(28, 1).addBox(0.5F, -11.5F, 0.0F, 1.0F, 0.0F, 1.0F, 0.0F, false);
-		Crown.setTextureOffset(29, 1).addBox(0.5F, -11.5F, -2.0F, 1.0F, 0.0F, 1.0F, 0.0F, false);
-		Crown.setTextureOffset(29, 1).addBox(-1.5F, -11.5F, -2.0F, 1.0F, 0.0F, 1.0F, 0.0F, false);
+		Crown.setTextureOffset(28, 3).addBox(-1.5F, -10.0F, -2.0F, 3.0F, 1.0F, 3.0F, 0.0F, false);
+		Crown.setTextureOffset(28, 1).addBox(-1.5F, -10.5F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+		Crown.setTextureOffset(28, 1).addBox(0.5F, -10.5F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+		Crown.setTextureOffset(29, 1).addBox(0.5F, -10.5F, -2.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+		Crown.setTextureOffset(29, 1).addBox(-1.5F, -10.5F, -2.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 
 		Antenae = new ModelRenderer(this);
 		Antenae.setRotationPoint(1.0F, -3.0F, -2.0F);

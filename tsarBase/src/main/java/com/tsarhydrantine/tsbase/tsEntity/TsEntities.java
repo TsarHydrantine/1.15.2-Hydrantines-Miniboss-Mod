@@ -18,6 +18,7 @@ import java.util.function.Function;
 import com.tsarhydrantine.tsbase.Reference;
 import com.tsarhydrantine.tsbase.tsEntity.IchorianGiant.IchorianGiantEntity;
 import com.tsarhydrantine.tsbase.tsEntity.QueenBee.QueenBeeEntity;
+import com.tsarhydrantine.tsbase.tsEntity.SkeletonVanguard.SkeletonVanguardEntity;
 import com.tsarhydrantine.tsbase.tsEntity.ToxicSpider.ToxicSpiderEntity;
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -28,6 +29,7 @@ public class TsEntities
     public static final EntityType<IchorianGiantEntity> ICHORIAN_GIANT = build(new ResourceLocation(Reference.MOD_ID, "ichorian_giant"), IchorianGiantEntity::new, 2.0F, 2.0F);
     public static final EntityType<ToxicSpiderEntity> TOXIC_SPIDER = build(new ResourceLocation(Reference.MOD_ID, "toxic_spider"), ToxicSpiderEntity::new, 2.0F, 2.0F);
     public static final EntityType<QueenBeeEntity> QUEEN_BEE = build(new ResourceLocation(Reference.MOD_ID, "queen_bee"), QueenBeeEntity::new, 2.0F, 2.0F);
+    public static final EntityType<SkeletonVanguardEntity> SKELETON_VANGUARD = build(new ResourceLocation(Reference.MOD_ID, "skeleton_vanguard"), SkeletonVanguardEntity::new, 2.0F, 2.0F);
     
     private static <T extends Entity> EntityType<T> build(ResourceLocation id, Function<World, T> function, float width, float height)
     {

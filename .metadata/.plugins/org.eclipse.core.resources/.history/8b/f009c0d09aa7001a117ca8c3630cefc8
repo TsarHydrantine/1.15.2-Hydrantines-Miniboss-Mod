@@ -1,7 +1,0 @@
-package com.tsarhydrantine.tsbase.tsEnchantments;
-
-import net.minecraft.enchantment.Enchantment;
-
-public class EnchantmentSlashing extends Enchantment {
-
-}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tsbase:items/enchanted_glass_sword"
+    }
+}

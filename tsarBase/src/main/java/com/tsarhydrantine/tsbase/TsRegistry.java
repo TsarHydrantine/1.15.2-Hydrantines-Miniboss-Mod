@@ -29,6 +29,7 @@ public class TsRegistry {
 	
 	public static final Logger logger = LogManager.getLogger(Reference.MOD_ID);
 	
+	//Zombie Function doesnt do anything rn
 	@SubscribeEvent
 	public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
 		final IForgeRegistry<Item> registry = event.getRegistry();
@@ -47,22 +48,5 @@ public class TsRegistry {
 		
 		logger.debug("Registered Items!");
 	}
-	
-	@SubscribeEvent
-	public static void onRegisterPotions(final RegistryEvent.Register<Potion> potionEvent, final RegistryEvent.Register<Effect> effectEvent) {
-		
-		final IForgeRegistry<Potion> potionRegistry = potionEvent.getRegistry();
-		
-		potionRegistry.registerAll(
-				
-		);
-		
-		
-		final IForgeRegistry<Effect> effectRegistry = effectEvent.getRegistry();
-		effectRegistry.registerAll(
-				TsEffects.frozen_effect = new TsEffects.Frozen(EffectType.HARMFUL, 0x99f0dd).setRegistryName(new ResourceLocation(Reference.MOD_ID, "frozen"))
-		);
-		
-		logger.debug("Registered Potions!");
-	}
+
 }
