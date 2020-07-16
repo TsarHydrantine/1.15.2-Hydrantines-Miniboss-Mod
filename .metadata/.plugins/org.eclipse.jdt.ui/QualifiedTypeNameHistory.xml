@@ -3,18 +3,12 @@
 <fullyQualifiedTypeName name="net.minecraft.item.SwordItem"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsItems.tsToolAndArmorTeirs.TsItemTier"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.LivingEntity"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.ModelRenderer"/>
-<fullyQualifiedTypeName name="com.mojang.blaze3d.matrix.MatrixStack"/>
-<fullyQualifiedTypeName name="com.mojang.blaze3d.vertex.IVertexBuilder"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.model.Model"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.EntityModel"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.BipedModel"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ArmorItem"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="javax.annotation.Nullable"/>
 <fullyQualifiedTypeName name="net.minecraft.inventory.EquipmentSlotType"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsItems.tsToolAndArmor.VangaurdArmorItem"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.SkeletonVanguard.SkeletonVangaurdEntity"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.SkeletonRenderer"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.SkeletonVanguard.SkeletonVanguardRenderer"/>
@@ -28,4 +22,17 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Items"/>
 <fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsItems.TsItems"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.structure.ScatteredStructure"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.MathHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.monster.MonsterEntity"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.Cerberus.CerberusEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.model.EntityModel"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.ModelRenderer"/>
+<fullyQualifiedTypeName name="com.mojang.blaze3d.matrix.MatrixStack"/>
+<fullyQualifiedTypeName name="com.mojang.blaze3d.vertex.IVertexBuilder"/>
+<fullyQualifiedTypeName name="com.tsarhydrantine.tsbase.tsEntity.Cerberus.CerberusRenderer"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.CreatureEntity"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

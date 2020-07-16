@@ -1,6 +1,7 @@
 package com.tsarhydrantine.tsbase.client;
 
 import com.tsarhydrantine.tsbase.tsEntity.TsEntities;
+import com.tsarhydrantine.tsbase.tsEntity.Cerberus.CerberusRenderer;
 import com.tsarhydrantine.tsbase.tsEntity.IchorianGiant.IchorianGiantRenderer;
 import com.tsarhydrantine.tsbase.tsEntity.QueenBee.QueenBeeRenderer;
 import com.tsarhydrantine.tsbase.tsEntity.SkeletonVanguard.SkeletonVanguardRenderer;
@@ -21,6 +22,7 @@ public class ClientHandler
         RenderingRegistry.registerEntityRenderingHandler(TsEntities.TOXIC_SPIDER, ToxicSpiderRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(TsEntities.QUEEN_BEE, QueenBeeRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(TsEntities.SKELETON_VANGUARD, SkeletonVanguardRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(TsEntities.CERBERUS, CerberusRenderer::new);
     }
     
 }

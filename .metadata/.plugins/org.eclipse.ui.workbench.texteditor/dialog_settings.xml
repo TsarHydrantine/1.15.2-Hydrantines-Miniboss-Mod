@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="SHIE"/>
+		<item key="selection" value="FIRE"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="fire"/>
+			<item value="legFrontRight"/>
+			<item value="legFrontLeft"/>
+			<item value="legBackRight"/>
+			<item value="legBackLeft"/>
+			<item value="mane"/>
+			<item value="leg2"/>
+			<item value="setBeg"/>
+			<item value="wolf"/>
+			<item value="beg"/>
+			<item value="water"/>
+			<item value="QueenBee"/>
 			<item value="Shie"/>
 			<item value="render"/>
 			<item value="this."/>
 		</list>
 		<list key="replacehistory">
+			<item value="leg3"/>
+			<item value="leg2"/>
+			<item value="leg1"/>
+			<item value="leg0"/>
+			<item value="upperBody"/>
 			<item value=""/>
+			<item value="cerberus"/>
+			<item value="Cerberus"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
